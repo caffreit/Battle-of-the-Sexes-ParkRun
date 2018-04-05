@@ -18,8 +18,7 @@ import scipy.stats as stats
 from statsmodels.tsa.seasonal import seasonal_decompose
 ```
 
-    C:\ProgramData\Anaconda2\lib\site-packages\statsmodels\compat\pandas.py:56: FutureWarning: The pandas.core.datetools module is deprecated and will be removed in a future version. Please use the pandas.tseries module instead.
-      from pandas.core import datetools
+
     
 
 
@@ -163,19 +162,7 @@ data.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -314,7 +301,7 @@ sns.swarmplot(x="measurement", y="value", hue="Gender", data=df)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x15d7d320>
+
 
 
 
@@ -340,7 +327,7 @@ sns.swarmplot(x="measurement", y="value", hue="Gender", data=df_time)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0xf0a8160>
+
 
 
 
@@ -359,7 +346,7 @@ sns.swarmplot(x="measurement", y="value", hue="Gender", data=df_rel)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x16068f60>
+
 
 
 
@@ -460,16 +447,13 @@ Below is a boxplot which shows the (more or less) the same information as above 
 ```python
 a4_dims = (11.7, 8.27)
 fig, ax = plt.subplots(figsize=a4_dims)
-
 sns.boxplot(ax=ax, data=data, x="Age_Cat", y="Time", hue='Gender')
-
-#ax.set_xticklabels(rotation=90)
 ```
 
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x13f37198>
+    
 
 
 
@@ -488,7 +472,7 @@ sns.boxplot(ax=ax, data=data, x="Age_Cat", y="Rel_Pos", hue='Gender')
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x183149e8>
+ 
 
 
 
@@ -562,19 +546,7 @@ df2.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -764,10 +736,6 @@ stats.ttest_ind(F['Time'], M['Time'], equal_var=False)
     Female mean time:
     30.3943157574
     
-
-
-
-
     Ttest_indResult(statistic=151.5950893861521, pvalue=0.0)
 
 
@@ -786,7 +754,7 @@ ax.set_xticklabels(rotation=90)
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x19fc3c18>
+
 
 
 
@@ -827,7 +795,7 @@ ax.set_xticklabels(rotation=90)
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x1be779e8>
+
 
 
 
@@ -844,7 +812,7 @@ ax.set_xticklabels(rotation=90)
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x20bcb208>
+
 
 
 
@@ -880,19 +848,7 @@ dfdate.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1076,7 +1032,7 @@ sns.pairplot(df, hue="Gender")
 
 
 
-    <seaborn.axisgrid.PairGrid at 0x1fb094e0>
+
 
 
 
