@@ -30,7 +30,6 @@ data['Time'] = ((pd.to_numeric(data['Time'].str.slice(0,2)))*60)+(pd.to_numeric\
 data['Date'] = pd.to_datetime(data['Date'],errors='coerce', format='%d-%m-%Y')
 data['Age_Cat'] = pd.to_numeric(data['Age_Cat'].str.slice(2,4),errors='coerce', downcast='integer')
 data['Age_Grade'] = pd.to_numeric(data['Age_Grade'].str.slice(0,5),errors='coerce')
-data.head()
 ```
 
 
@@ -38,102 +37,7 @@ data.head()
 
 <div>
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Pos</th>
-      <th>Name</th>
-      <th>Time</th>
-      <th>Age_Cat</th>
-      <th>Age_Grade</th>
-      <th>Gender</th>
-      <th>Gen_Pos</th>
-      <th>Club</th>
-      <th>Note</th>
-      <th>Total_Runs</th>
-      <th>Run_No.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2012-11-10</td>
-      <td>1</td>
-      <td>Michael MCSWIGGAN</td>
-      <td>18.316667</td>
-      <td>35.0</td>
-      <td>73.43</td>
-      <td>M</td>
-      <td>1.0</td>
-      <td>Portmarnock Athletic Club</td>
-      <td>First Timer!</td>
-      <td>29.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2012-11-10</td>
-      <td>2</td>
-      <td>Alan FOLEY</td>
-      <td>18.433333</td>
-      <td>30.0</td>
-      <td>71.16</td>
-      <td>M</td>
-      <td>2.0</td>
-      <td>Raheny Shamrock AC</td>
-      <td>First Timer!</td>
-      <td>99.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2012-11-10</td>
-      <td>3</td>
-      <td>Matt SHIELDS</td>
-      <td>18.533333</td>
-      <td>55.0</td>
-      <td>85.07</td>
-      <td>M</td>
-      <td>3.0</td>
-      <td>North Belfast Harriers</td>
-      <td>First Timer!</td>
-      <td>274.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2012-11-10</td>
-      <td>4</td>
-      <td>David GARGAN</td>
-      <td>18.650000</td>
-      <td>40.0</td>
-      <td>73.73</td>
-      <td>M</td>
-      <td>4.0</td>
-      <td>Raheny Shamrock AC</td>
-      <td>First Timer!</td>
-      <td>107.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2012-11-10</td>
-      <td>5</td>
-      <td>Paul SINTON-HEWITT</td>
-      <td>18.900000</td>
-      <td>50.0</td>
-      <td>79.28</td>
-      <td>M</td>
-      <td>5.0</td>
-      <td>Ranelagh Harriers</td>
-      <td>First Timer!</td>
-      <td>369.0</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
+
 </div>
 
 
