@@ -1,7 +1,6 @@
-# Battle-of-the-Sexes-ParkRun
-A comparison of the data of Males and Females
+[Homepage of blog-](https://caffreit.github.io/blog-/)
 
-## Battle of the Sexes
+# Battle of the Sexes
 
 
 The aim of this post is to compare the performance and attendence of male and female athletes.
