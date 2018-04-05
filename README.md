@@ -345,7 +345,7 @@ The most interesting thing about the mean times, is the drop/increase in the fem
 
 A little unexpectedly the standard devaition for men is consistently lower, showing that men have a more similar ability to one another.
 
-Below is a boxplot which shows the (more or less) the same information as above but in a more condensed form. More info on boxplots http://www.physics.csbsju.edu/stats/box2.html
+Below is a boxplot which shows the (more or less) the same information as above but in a more condensed form. [More info](http://www.physics.csbsju.edu/stats/box2.html) on boxplots.
 
 
 ```python
